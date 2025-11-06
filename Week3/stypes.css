@@ -1,0 +1,143 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-image : url("https://tse4.mm.bing.net/th/id/OIP.leXO7tfruSerx1W6RVr1tQHaD6?rs=1&pid=ImgDetMain&o=7&rm=3");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+}
+button {
+  cursor: pointer;
+}
+
+.screen{
+    width: 300px; 
+    height: 450px;
+    background-color: rgb(152, 34, 34);
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 16px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.5s ease;
+}
+
+.screen:hover {
+  transform: translateY(-10px); 
+  box-shadow: 0 8px 40px rgba(149, 9, 9, 0.6); 
+}
+
+.image{
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.image img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;   
+  border: 3px solid hsl(0, 93%, 45%);
+  margin: 5px auto;  
+ transition: all 0.4s ease; 
+
+}
+.image img:hover{
+    transform: translateY(-10px);
+     box-shadow: 0 10px 15px rgba(18, 3, 3, 0.3);
+}
+
+.desciption{
+    padding: 10px;
+
+}
+.name{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin: auto;
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}   
+.job{
+    font-size: 16px;  
+    font-weight:bold ;
+    color: yellow;  
+     text-align: center;
+     margin: 6px;
+}
+.jobdecription{
+    font-size: 14px;
+    margin: 19px;
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+}
+.icon{
+  display: flex;
+  justify-content: center;
+  gap: 22px; 
+  margin-top: 22px;
+}
+
+.icon button{
+    width: 40px;
+    height: 40px;
+    border:none;
+    justify-content: center;
+    background-color: #e63535;
+    transition: all 0.3s ease;
+    box-shadow:0 0 10px rgba(18, 3, 3, 0.3);
+}
+.facebook{
+    font-size: 20px;
+    border-radius: 50%;
+    color: rgb(254, 254, 254);
+
+}
+.facebook:hover{
+    transform: translateY(-5px);
+    color: grey;
+}
+.intagram{
+    font-size: 20px;
+    border-radius: 50%;
+    color: rgb(254, 254, 254);
+}
+.intagram:hover{
+    transform: translateY(-5px);
+    color: grey;
+}
+.youtube{
+    font-size: 20px;
+    border-radius: 50%;
+    color: rgb(254, 254, 254);
+}
+.youtube:hover{
+    transform: translateY(-5px);
+    color: grey;
+}
