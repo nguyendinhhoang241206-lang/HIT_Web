@@ -1,0 +1,212 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f3e8; 
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.product-page-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px; 
+}
+
+.product-main-content {
+    flex: 3;
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+}
+
+.product-image-section {
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.product-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+.product-name { font-size: 1.8em; margin: 10px 0; }
+.product-price { font-size: 1.5em; color: #007bff; font-weight: bold; margin-bottom: 15px; }
+
+.product-rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.stars { color: #ffc107; font-size: 1.2em; margin-right: 10px; }
+.rating-count { font-size: 0.9em; color: #777; }
+
+.product-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.badge {
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    color: #555;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.85em;
+}
+
+.badge i { margin-right: 5px; }
+
+.add-to-cart-btn {
+    background-color: #dc3545; 
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.section-details, .section-additional, .section-share, .section-review {
+    padding-top: 15px;
+    border-top: 1px dashed #eee;
+    margin-top: 15px;
+}
+
+h3 { font-size: 1.3em; margin-top: 0; margin-bottom: 10px; }
+.sub-heading { font-size: 1.1em; margin-top: 20px; margin-bottom: 10px; font-weight: bold; }
+
+ul { list-style: none; padding: 0; }
+ul li { margin-bottom: 8px; color: #555; }
+.section-details ul li i { color: #28a745; margin-right: 8px; } 
+
+.additional-info-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.info-item {
+    background-color: #f0f0f0;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    color: #333;
+}
+.info-item i { margin-right: 5px; color: #6c757d; }
+
+
+.feature-icon { color: #007bff; margin-right: 8px; } 
+.guide-icon { color: #8a2be2; margin-right: 8px; } 
+.special-icon { color: #ffc107; margin-right: 8px; }
+
+.social-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-btn {
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+.facebook { background-color: #3b5998; }
+.twitter { background-color: #1da1f2; }
+.instagram { background-color: #c32aa3; }
+
+.section-review {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-top: 30px;
+}
+
+.review-input {
+    width: 100%;
+    min-height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.submit-review-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.related-products-section {
+    flex: 1;
+    padding-top: 25px;
+}
+
+.related-heading {
+    font-size: 1.4em;
+    margin-bottom: 20px;
+}
+
+.related-product-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 10px 0;
+}
+
+.thumb-container {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    margin-right: 15px;
+    flex-shrink: 0;
+    border: 1px solid #eee;
+}
+
+.thumb-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-name-related {
+    flex-grow: 1;
+    font-size: 1em;
+}
+
+.product-price-related {
+    font-size: 1em;
+    color: #28a745; 
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+    .product-page-container {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+}
