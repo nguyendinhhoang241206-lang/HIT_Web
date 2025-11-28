@@ -1,0 +1,49 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(151, 81, 81);
+}
+
+.menu1{
+    list-style-type: none;
+    display: flex;  
+    font-size:smaller;  
+}
+.menu1 li a{
+    text-decoration: none;
+    padding-right: 30px;
+    color:#fcf8f8;
+    font-weight: bold;
+    transition: 0.3s ease;
+
+}
+.menu1 li a:hover{
+    color: #E98F45;
+}
+
+.search button{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+    transition:background-color 0.3s ease;
+}
+.search button:hover{
+    background-color: rgb(72, 68, 68);
+}
+.search span{
+    padding:0 10px;
+}
